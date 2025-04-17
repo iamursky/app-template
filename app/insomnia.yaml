@@ -1,0 +1,123 @@
+type: collection.insomnia.rest/5.0
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1744468230679
+  modified: 1744468230679
+collection:
+  - name: Sample Requests
+    meta:
+      id: fld_8addf934a5e047869c64a95f2d5f6055
+      created: 1744468605586
+      modified: 1744468605586
+      sortKey: -1744468605586
+    children:
+      - url: http://localhost:8081/api?hello=world
+        name: Sample Get Request
+        meta:
+          id: req_97eba74af33c4ce58fd1d59fa9a616e4
+          created: 1744468369627
+          modified: 1744468619428
+          isPrivate: false
+          sortKey: -1744468617598
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:8081/api
+        name: Sample Post Request
+        meta:
+          id: req_514df3a55af347b4b26bdf0813ea0e30
+          created: 1744468490897
+          modified: 1744468626048
+          isPrivate: false
+          sortKey: -1744468617573
+        method: POST
+        body:
+          mimeType: application/json
+          text: |-
+            {
+            	"hello": "world"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/11.0.2
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:8081/api
+        name: Sample Patch Request
+        meta:
+          id: req_3c26364fc63c40b3ad7ff831ba48fb9e
+          created: 1744468534204
+          modified: 1744468621419
+          isPrivate: false
+          sortKey: -1744468617548
+        method: PATCH
+        body:
+          mimeType: application/json
+          text: |-
+            {
+            	"hello": "world"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/11.0.2
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:8081/api?hello=world
+        name: Sample Delete Request
+        meta:
+          id: req_a4c8f61b2a4848b483d8832e1d356a4f
+          created: 1744468552744
+          modified: 1744468622221
+          isPrivate: false
+          sortKey: -1744468617523
+        method: DELETE
+        headers:
+          - name: User-Agent
+            value: insomnia/11.0.2
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1744468242554
+    modified: 1744468242554
+environments:
+  name: Base Environment
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1744468242501
+    modified: 1744468242501
+    isPrivate: false

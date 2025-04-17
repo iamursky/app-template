@@ -1,0 +1,14 @@
+{
+  "cli": {
+    "version": "16.3.1",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "production": {
+      "channel": "production",
+      "android": {
+        "buildType": "app-bundle"
+      }
+    }
+  }
+}

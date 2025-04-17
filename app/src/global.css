@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    height: -webkit-fill-available;
+  }
+
+  body {
+    height: -webkit-fill-available;
+  }
+
+  #root {
+    height: -webkit-fill-available;
+  }
+}
+
+@layer components {
+  .screen {
+    @apply flex-1 gap-sm overflow-auto bg-white px-4 py-6;
+  }
+  .text-style-h1 {
+    @apply font-bold text-h1 leading-h1 tracking-h1;
+  }
+  .text-style-h2 {
+    @apply font-bold text-h2 leading-h2 tracking-h2;
+  }
+  .text-style-h3 {
+    @apply font-bold text-h3 leading-h3 tracking-h3;
+  }
+  .text-style-p {
+    @apply font-regular text-p leading-p tracking-p;
+  }
+  .text-style-tooltip {
+    @apply font-regular text-tooltip leading-tooltip tracking-tooltip;
+  }
+}
